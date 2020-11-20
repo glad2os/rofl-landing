@@ -1,6 +1,12 @@
 /*
  * Copyright (c) 2020. Все права защищены. И даже те, которые не защищены. Стас.
  */
+
+@font-face {
+    font-family: 'minecraft';
+    src: url('9303.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
 .topbutton {
     width: 100px;
     border: 2px solid #ccc;
@@ -20,6 +26,7 @@
 body {
     overflow-x: hidden;
     background-color: black;
+    font-family: 'minecraft', serif;
 }
 
 header {
@@ -33,4 +40,21 @@ header {
     position: absolute;
     top: 0;
     text-align: center;
+}
+
+
+#works > .text {
+    color: white;
+    font-size: 3rem;
+}
+
+#works {
+    margin-bottom: 100px;
+}
+
+.buy {
+    background-image: url("img/IMG_4872.JPG");
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 100vh;
 }

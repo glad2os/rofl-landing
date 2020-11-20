@@ -27,12 +27,12 @@
 }
 
 .slide1 {
-    background-image: url("slider/IMG_1269-min.JPG");
+    background-image: url("slider/IMG_1277-min.JPG");
     background-size: contain;
 }
 
 .slide2 {
-    background-image: url("slider/IMG_1277-min.JPG");
+    background-image: url("slider/IMG_1269-min.JPG");
     background-size: cover;
 }
 
