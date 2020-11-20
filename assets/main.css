@@ -1,0 +1,36 @@
+/*
+ * Copyright (c) 2020. Все права защищены. И даже те, которые не защищены. Стас.
+ */
+.topbutton {
+    width: 100px;
+    border: 2px solid #ccc;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    color: #333;
+    font-family: verdana, serif;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+
+header {
+    background-image: url("img/IMG_1307-min.JPG");
+    background-size: cover;
+    filter: blur(8px);
+    height: 100vh;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
