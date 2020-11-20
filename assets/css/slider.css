@@ -27,27 +27,27 @@
 }
 
 .slide1 {
-    background-image: url("slider/IMG_1277-min.JPG");
+    background-image: url("../slider/IMG_1277-min.JPG");
     background-size: contain;
 }
 
 .slide2 {
-    background-image: url("slider/IMG_1269-min.JPG");
+    background-image: url("../slider/IMG_1269-min.JPG");
     background-size: cover;
 }
 
 .slide3 {
-    background-image: url("slider/IMG_1288-min.JPG");
+    background-image: url("../slider/IMG_1288-min.JPG");
     background-size: cover;
 }
 
 .slide4 {
-    background-image: url("slider/IMG_1291-min.JPG");
+    background-image: url("../slider/IMG_1291-min.JPG");
     background-size: cover;
 }
 
 .slide5 {
-    background-image: url("slider/IMG_1310-min.JPG");
+    background-image: url("../slider/IMG_1310-min.JPG");
     background-size: cover;
 }
 

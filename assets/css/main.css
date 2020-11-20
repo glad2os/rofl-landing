@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'minecraft';
-    src: url('9303.ttf') format('truetype'); /* Safari, Android, iOS */
+    src: url('../9303.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 
 .topbutton {
@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    background-image: url("img/IMG_1307-min.JPG");
+    background-image: url("../img/IMG_1307-min.JPG");
     background-size: cover;
     filter: blur(8px);
     height: 100vh;
@@ -53,7 +53,7 @@ header {
 
 #buy {
     color: white;
-    background-image: url("img/IMG_4872.png");
+    background-image: url("../img/IMG_4872.png");
     background-size: cover;
     height: 100vh;
 }
@@ -64,4 +64,13 @@ header {
 
 #buy .container {
     padding: 50px 0;
+}
+
+#about img{
+    height: 201px;
+    width: 350px;
+}
+
+#about{
+    margin: 50px;
 }
