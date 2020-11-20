@@ -1,8 +1,4 @@
-body{
-    margin:0;
-    text-align:center;
-    background:#f5f5f5;
-}
+
 h1 {
     text-align:center;
 }
@@ -25,7 +21,7 @@ label {
     cursor:pointer;
 }
 input[type="radio"][id="blue"]:checked + label {
-    background:#6666ff;
+    background: #4d4dd7;
 }
 input[type="radio"][id="blue"]:checked ~ .red, input[type="radio"][id="blue"]:checked ~ .green {
     width:0;
@@ -35,7 +31,7 @@ input[type="radio"][id="blue"]:checked ~ .red, input[type="radio"][id="blue"]:ch
     opacity:0;
 }
 input[type="radio"][id="red"]:checked + label {
-    background:#ff4466;
+    background: #d22a49;
 }
 input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"]:checked ~ .green {
     width:0;
@@ -45,7 +41,7 @@ input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"]:che
     opacity:0;
 }
 input[type="radio"][id="green"]:checked + label {
-    background:#66dd99;
+    background: #aabf4d;
 }
 input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]:checked ~ .red {
     width:0;
@@ -64,11 +60,11 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
     padding:0.5%;
 }
 .green {
-    background:#66dd99;
+    background:#aabf4d;
 }
 .blue {
-    background:#6666ff;
+    background:#4d4dd7;
 }
 .red {
-    background:#ff4466;
+    background:#d22a49;
 }

@@ -9,8 +9,8 @@
 
 .topbutton {
     width: 100px;
-    border: 2px solid #ccc;
-    background: #f7f7f7;
+    border: 2px solid #3b3b3b;
+    background: #acacac;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -18,7 +18,6 @@
     right: 50px;
     cursor: pointer;
     color: #333;
-    font-family: verdana, serif;
     font-size: 12px;
     border-radius: 5px;
 }
@@ -64,5 +63,5 @@ header {
 }
 
 #buy .container {
-padding: 100px 0;
+    padding: 50px 0;
 }
